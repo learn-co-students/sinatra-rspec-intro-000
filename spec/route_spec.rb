@@ -25,31 +25,20 @@ describe "routes" do
 
     get '/'
 
-    # be_ok is a helper from Rack::Test
 
-    expect(last_response).to be_ok
-
-    # be_ok is the equivalent
-    # of checking for HTTP status code 200
-
-    expect(last_response.status).to eq(200)
   end
 
   it "handles POST to /" do
     # 'post' is a helper from Rack::Test
     # it specifies a post request.
 
-    post '/'
-    expect(last_response).to be_ok
   end
 
   it "handles GET to /about" do
     get '/about'
-    expect(last_response).to be_ok
   end
 
   it "handles GET to /hello" do
     get '/hello'
-    expect(last_response).to be_ok
   end
 end
