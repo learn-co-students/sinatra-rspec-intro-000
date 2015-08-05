@@ -7,7 +7,7 @@ class TestApp < Sinatra::Base
 
   end
 
-  get '/hello' do
+  get '/hello/?:name?' do
 
     @name = (params[:name])
 
