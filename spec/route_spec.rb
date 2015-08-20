@@ -15,7 +15,6 @@ describe "routes" do
   # tests that define what routes our application handles
   # the tests for our individual routes and the operations
   # they perform are in the other spec files
-
   # separation of concerns applies in tests, too!
 
   it "handles GET to /" do

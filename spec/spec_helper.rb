@@ -3,7 +3,7 @@
 
 ENV['RACK_ENV'] = 'test'
 
-require_relative '../app'
+require './app'
 
 # These are helpers for rspec that allow us to use things like last_response
 # in our tests. We require it at top level in spec_helper so every spec
